@@ -1,31 +1,31 @@
 {
-  "name": "maljs",
-  "version": "0.1.0",
-  "description": "Get anime and manga info from MyAnimeList",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Windsdon/maljs.git"
-  },
-  "keywords": [
-    "myanimelist",
-    "anime",
-    "manga",
-    "scraper"
-  ],
-  "author": "Windsdon",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Windsdon/maljs/issues"
-  },
-  "homepage": "https://github.com/Windsdon/maljs#readme",
-  "dependencies": {
-    "async": "^2.1.2",
-    "cheerio": "^0.22.0",
-    "request": "^2.75.0",
-    "striptags": "^2.1.1"
-  }
+	"name": "maljs",
+	"version": "0.2.0",
+	"description": "Get anime and manga info from MyAnimeList",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Windsdon/maljs.git"
+	},
+	"keywords": [
+		"myanimelist",
+		"anime",
+		"manga",
+		"scraper"
+	],
+	"author": "Windsdon",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Windsdon/maljs/issues"
+	},
+	"homepage": "https://github.com/Windsdon/maljs#readme",
+	"dependencies": {
+		"async": "^2.1.2",
+		"cheerio": "^0.22.0",
+		"request": "^2.75.0",
+		"striptags": "^2.1.1"
+	}
 }
