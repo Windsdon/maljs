@@ -19,3 +19,12 @@ mal.quickSearch('lelouch').then(function(results) {
         })
     });
 });
+
+mal.getById('anime', 21).fetch().then(function(e) {
+    console.log(e);
+});
+
+
+mal.getCharacterById(1111).fetch().then(function(e) {
+    console.log(e);
+});
