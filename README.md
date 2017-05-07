@@ -91,6 +91,18 @@ Returns the top 50 manga (unfetched):
 [ Title, Title, ... ]
 ```
 
+### `Character|Title` MyAnimeList.getById(type, id)
+Returns an object for the resource. Note: the resource is not validated! If it's invalid, `.fetch` will fail.
+
+`type` should be one of `"anime" || "manga" || "character"`
+
+You can, alternatively, use the helper functions:
+```js
+MyAnimeList.getAnimeFromId(id);
+MyAnimeList.getMangaFromId(id);
+MyAnimeList.getCharacterFromId(id);
+```
+
 ## Title
 Contains information about a manga or anime. The characters are unfetched.
 Once fetched, the object will be populated with the following information:
